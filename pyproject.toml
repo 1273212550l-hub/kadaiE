@@ -1,0 +1,11 @@
+[build-system]
+requires = ["setuptools>=42", "wheel"]
+build-backend = "setuptools.build_meta"
+[project]
+name = "kadaie_1"
+version = "0.1.0"
+description = "Calculate the length of sequence<=100 ratio from PDB"
+authors = [{name = "kazma", email = "1273212550l@gmail.com"}]
+dependencies = ["pandas"]
+[project.scripts]
+kadaie_1 = "kadaie_1.main:main"
